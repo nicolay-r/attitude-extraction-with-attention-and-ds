@@ -47,8 +47,7 @@ cd data && ./download.sh
     booktitle = "The 10th International Conference on Web Intelligence, Mining and Semantics (WIMS 2020), 
       June 30-July 3, 2020, Biarritz, France",
     year = "2020",
-    publisher = "INCOMA Ltd.",
-    url = "https://www.aclweb.org/anthology/R19-1118",
+    url = "https://doi.org/10.1145/3405962.3405985",
     doi = "10.1145/3405962.3405985",
 }
 ```
