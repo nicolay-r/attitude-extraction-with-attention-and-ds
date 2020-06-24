@@ -1,6 +1,10 @@
 # Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision
 
-This section will be updated.
+This repository provides a source code of models and related experiments, conducted as a part of the following paper:
+
+* Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision [[ACM-DOI]](https://doi.org/10.1145/3405962.3405985)
+    * Rusnachenko Nicolay, Loukachevitch Natalia
+    * WIMS-2020
 
 ## Dependencies
 
@@ -31,4 +35,15 @@ cd data && ./download.sh
 
 ## References
 
-This section will be updated.
+```
+@inproceedings{rusnachenko-2020-atttention,
+    title = "Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision",
+    author = "Rusnachenko, Nicolay  and Loukachevitch, Natalia",
+    booktitle = "The 10th International Conference on Web Intelligence, Mining and Semantics (WIMS 2020), 
+      June 30-July 3, 2020, Biarritz, France",
+    year = "2020",
+    publisher = "INCOMA Ltd.",
+    url = "https://www.aclweb.org/anthology/R19-1118",
+    doi = "10.1145/3405962.3405985",
+}
+```
