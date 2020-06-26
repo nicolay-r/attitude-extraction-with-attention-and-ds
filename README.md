@@ -41,7 +41,7 @@ cd data && ./download.sh
 ## References
 
 ```
-@inproceedings{rusnachenko-2020-atttention,
+@inproceedings{rusnachenko-2020-attention-ds,
     title = "Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision",
     author = "Rusnachenko, Nicolay  and Loukachevitch, Natalia",
     booktitle = "The 10th International Conference on Web Intelligence, Mining and Semantics (WIMS 2020), 
