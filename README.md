@@ -7,7 +7,9 @@ results in biased weight distribution of models, trained without DS: frames in b
 
 This repository provides a source code of models and related experiments, conducted as a part of the following paper:
 
-* Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision [[ACM-DOI]](https://doi.org/10.1145/3405962.3405985)
+* Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision 
+[[ACM-DOI]](https://doi.org/10.1145/3405962.3405985) /
+[[presentation]](docs/wims_2020_slides.pdf)
     * Rusnachenko Nicolay, Loukachevitch Natalia
     * WIMS-2020
 
