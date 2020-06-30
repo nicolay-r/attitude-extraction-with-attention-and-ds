@@ -1,6 +1,6 @@
 # Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision
 
-![](images/weight.png)
+![](docs/weight.png)
 > **Image**: Application of Distant Supervision (DS) 
 results in biased weight distribution of models, trained without DS: frames in between **Object** and 
 **Subject** of context attitude become more significant, which corresponds to the pattern of contents [RuAttitudes](https://github.com/nicolay-r/RuAttitudes) collection.
