@@ -2,8 +2,8 @@
 
 ![](docs/weight.png)
 > **Image**: Application of Distant Supervision (DS) 
-results in biased weight distribution of models, trained without DS: frames in between **Object** and 
-**Subject** of context attitude become more significant, which corresponds to the pattern of contents [RuAttitudes](https://github.com/nicolay-r/RuAttitudes) collection.
+in model training results in a weight distribution biasing: frames in between **Object** and 
+**Subject** become greater weighted; the latter corresponds to the pattern of frame-based approach of [RuAttitudes](https://github.com/nicolay-r/RuAttitudes) collection.
 
 This repository provides a source code of models and related experiments, conducted as a part of the following paper:
 
