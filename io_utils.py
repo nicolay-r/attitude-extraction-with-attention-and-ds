@@ -24,7 +24,11 @@ class RuSentRelBasedExperimentsIOUtils(DataIO):
             stemmer=self.__stemmer,
             is_read_only=True)
         self.__opinion_formatter = RuSentRelOpinionCollectionFormatter
+
+        # You may manually select three-scale mode by commenting one of these two lines below. 
         self.__neutral_annotator = self.__init_two_scale_neutral_annotator()
+        # self.__neutral_annotator = self.__init_three_scale_neutral_annotator
+
         self.__word_embedding = self.__create_word_embedding() if init_word_embedding else None
         self.__cv_folding_algorithm = self.__init_sentence_based_cv_folding_algorithm()
 
