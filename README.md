@@ -18,7 +18,7 @@ This repository provides a source code of models and related experiments, conduc
 ## Dependencies
 
 * Python-2.7
-* arekit-0.20.0
+* arekit-0.20.3 [[**WIMS-2020 edition**]](https://github.com/nicolay-r/AREkit/blob/0.20.3-wims-rc/README.md)
 
 ## Installation
 
