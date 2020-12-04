@@ -42,6 +42,21 @@ pip install -r arekit/dependencies.txt
 cd data && ./download.sh
 ```
 
+## Usage
+
+1. Select the appropriate Exteperiment format (TwoScale or ThreeScale) by uncommenting one of the line [at io_utils.py](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/blob/c463a13fc663ab2d53c0f2af74d432b171657994/io_utils.py#L28):
+```python
+# You may manually select three-scale mode by commenting one of these two lines below. 
+# self.__neutral_annotator = self.__init_two_scale_neutral_annotator() # <- 2-scale
+# self.__neutral_annotator = self.__init_three_scale_neutral_annotator() # <- 3-scale
+```
+
+2. Proceed with the `run_*.sh` scripts in the following directories:
+   * [Supervised Learning, Fixed Train/Test separation](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/tree/master/rusentrel/classic)
+   * [Supervised Learning, CV-based separation](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/tree/master/rusentrel/classic_cv)
+   * [SL+DS, Fixed Train/Test separation](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/tree/master/rusentrel/rusentrel_ds)
+   * [SL+DS, CV-based separation](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/tree/master/rusentrel/rusentrel_ds_cv)
+
 ## References
 
 ```
