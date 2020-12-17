@@ -1,5 +1,7 @@
 # Attention-Based Neural Networks for Sentiment Attitude Extraction using Distant Supervision
 
+> **UPD 17'th december 2020**: distance between terms parameter (`thetta`, which equals 10) may discard some pairs from further consideration which affects on results. [[issue]](https://github.com/nicolay-r/attitude-extraction-with-attention-and-ds/issues/1)
+
 ![](docs/weight.png)
 > **Figure**: Application of Distant Supervision in model 
 training process results in a weight distribution biasing: 
